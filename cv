@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #00bcd4;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    color: #00bcd4;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+<body>
+  <header>
+    <H1>shivampandey</H1>\
+    <nav>
+      <ul>
+        <li><a href="#name">name</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="name">
+    <h2>personal details</h2>
+    <p>
+       shivampandey
+        </p>
+  <section id="education">
+            <h2>education</h2>
+            <p>
+               1. class 10 =88%</p>
+            <P>2. class 12 = 69%</P>
+            <P> 3. CGPA = 7.4
+                </p>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+        Experienced Software Engineer with a proven track record in full-stack development, specializing in Java and JavaScript frameworks. 
+        Skilled in software design, coding, testing, and deployment in agile environments.
+         Strong problem-solving abilities and a collaborative mindset, contributing to team success and delivering high-quality solutions. \
+         Continuously learning and adapting to new technologies and industry trends.
+          Seeking a challenging role in a dynamic company to apply expertise in developing innovative software solutions and driving business growth.
+        
+        </p>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+        Here are some project ideas for software engineering:</p>  
+        
+        1.E-commerce Platform:
+        Develop a full-stack e-commerce platform with features such as user authentication, product catalog, shopping cart, payment processing, and order management.
+    </p>  
+    <p>
+        2.Task Management System:
+        Create a web-based task management system where users can create, assign, track, and prioritize tasks within teams. Include features like notifications, due dates, and progress tracking.
+    </p>  
+    <p>
+       3. Chat Application:
+        Build a real-time chat application using technologies like WebSocket or Socket.io. Implement features such as private messaging, group chats, file sharing, and message encryption.</p>
+    <p>
+        4.Social Media Dashboard:
+        Design a social media dashboard for managing multiple social accounts in one place. Include features like scheduling posts, analytics, engagement tracking, and content recommendations.
+    </p>  
+    <p>
+        5.Healthcare Management System:
+        Develop a healthcare management system for clinics or hospitals, including patient records, appointment scheduling, billing, prescription management, and reporting tools.</p>  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>shivampandey79xx@gmail.com</p>
+    <p>99057xxxxx</p>
+  </section>
+</body>
+</html>
